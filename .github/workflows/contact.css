@@ -1,0 +1,14 @@
+main .containerright {
+    width: 100%;
+    overflow: hidden;
+}
+
+main .left {
+    float: left;
+    width: 70%;
+    margin-right: 5%;
+}
+
+main .textright {
+    overflow: hidden;
+}

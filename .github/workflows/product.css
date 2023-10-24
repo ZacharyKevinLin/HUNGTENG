@@ -1,0 +1,50 @@
+
+h1{
+  color: #000000;
+}
+
+.container {
+    display: flex;
+    color: #df4d4d;
+}
+
+.sidebar {
+  float: left;
+    width:12%;
+    letter-spacing: 6px;
+    position: fixed;
+    height: 30vw;
+}
+
+.content {
+    margin-left: 25%;
+    /* 调整适当的左边距，以确保主要内容不被侧边栏遮挡 */
+}
+
+main .button {
+    font-size: medium;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 1%;
+    grid-row-gap: 0px; /* 設定上下間距為 5px */
+  }
+  
+.grid-item {
+  margin: 1%;
+  overflow: hidden; /* 超過部分裁切掉 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000025;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
